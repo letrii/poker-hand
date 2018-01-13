@@ -2,6 +2,7 @@
 This is a very simple tool check poker hand.
 
 Poker hands and the descriptions of them:
+
 Hands | Description | String to output
 --- | --- | ---
 *Four cards* | `4 cards out of 5 has the same Rank.` | **4C**
@@ -14,7 +15,7 @@ Hands | Description | String to output
 ```
 python poker_hands.py -r
 ```
-**>>> output**
+**>>> output**
 ```
 C3HJH7CQHQ
 ['C', 'H', 'H', 'C', 'H']
